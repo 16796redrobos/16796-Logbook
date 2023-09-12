@@ -1,2 +1,2 @@
 # 16796-Logbook
-2023-2024 First Tech Challenge logbook for 16796 Red Robodragons 
+This repository hosts the logbook for the 16796 Red Robodragons FTC team for the CENTERSTAGE (2023-2024) season.
