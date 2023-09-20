@@ -2,7 +2,7 @@
 % command declaration
 \usepackage{xspace, xparse, xifthen}
 \def\teamnumber{16796\xspace}
-\def\teamname{Team \teamnumber Robodragons Red\xspace}
+\def\teamname{Red RoboDragons Team \teamnumber \xspace}
 \NewDocumentCommand{\img}{O{}m}{\includegraphics[#1]{../images/#2}}
 % minted
 \usepackage{minted}
@@ -18,7 +18,7 @@
 \fancyhf{}
 \fancyhf[hl]{\teamname}
 \setlength{\headheight}{24pt}
-\fancyhf[hr]{\img[height=16pt]{logo.png}}
+\fancyhf[hr]{\img[height=16pt]{team-logo.png}}
 \pagestyle{fancy}
 \fancyhf[fl]{Engineering Notebook}
 \fancyhf[fr]{\thepage}
@@ -28,8 +28,8 @@
 \usepackage{calc}
 % colors
 \usepackage{xcolor}
-\definecolor{accent}{HTML}{e94829} % 丹罽红
-\definecolor{secondary}{HTML}{ed6d46} % 朱柿橙
+\definecolor{accent}{HTML}{ffaa00}
+\definecolor{secondary}{HTML}{f2be55}
 % box
 \usepackage{tikz}
 \usepackage{tcolorbox}
@@ -52,14 +52,14 @@
 			\end{minipage}\qquad
 			\begin{minipage}[c]{0.25\width}
 				\begin{flushright}
-					\img[height=3.5cm]{powerplay-light}
+					\img[height=3.5cm]{centerstage-logo.jpg}
 				\end{flushright}
 			\end{minipage}
 		}
 	}
 	\vfill
 	\Large
-	{\bfseries\hspace{-1em}\img[height=2.5cm]{logo}\\
+	{\bfseries\hspace{-1em}\img[height=2.5cm]{team-logo.png}\\
 	\@author}\\[0.5em]
 	\@date
   \end{titlepage}\newpage}
